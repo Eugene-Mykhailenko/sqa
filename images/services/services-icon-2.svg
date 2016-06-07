@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="20.5263158" y="65.1599587" width="1.57894737" height="12.7141383"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1.57894737" height="12.7141383" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-18" stroke="#4990E2">
+            <g id="Icon-5" transform="translate(2.000000, 10.000000)">
+                <g id="Group-8">
+                    <use id="Rectangle-224" mask="url(#mask-2)" stroke-width="4" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <path d="M31.7828412,60.3921569 C38.6210361,63.9141408 43.499097,71.0517434 44.2105263,79.4633643 C37.9416744,79.4216724 9.93011144,79.4216724 -1.0641477e-15,79.4216733 C0.723995863,71.028163 5.59722944,63.9083206 12.424124,60.3921569 C14.9522789,62.9174492 18.3576019,64.4648287 22.1034826,64.4648287 C25.8493633,64.4648287 29.2546863,62.9174492 31.7828412,60.3921569 Z" id="Combined-Shape" stroke-width="2"></path>
+                    <ellipse id="Oval-251" stroke-width="2" cx="56.8421053" cy="53.0350877" rx="3.15789474" ry="3.17853457"></ellipse>
+                    <ellipse id="Oval-250" stroke-width="2" cx="21.8947368" cy="50.0619195" rx="10.2631579" ry="10.3302374"></ellipse>
+                    <path d="M62.5789474,31.7853457 C61.9241172,32.7312966 60.6314091,33.374613 59.1217535,33.374613 L53.2891433,33.374613 C51.8747077,33.374613 50.6354475,32.803037 49.9473684,31.9391899" id="Rectangle-224" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <ellipse id="Oval-249" stroke-width="2" cx="56.0526316" cy="19.8658411" rx="19.7368421" ry="19.8658411"></ellipse>
+                    <path d="M40.886805,41.9361167 C37.5368039,43.2195597 34.4099663,44.9379069 31.5789474,47.0201166 M94.7368421,77.874097 C94.7368421,61.5921544 84.4226574,47.6657247 69.8344548,42.0008479 C66.0907886,44.0178301 61.5846915,45.2979043 56.7728272,45.2979043 C51.6352437,45.2979043 46.8462237,43.8386661 42.815628,41.3209494 L40.815343,41.9699304" id="Combined-Shape" stroke-width="2"></path>
+                    <path d="M75.7894737,17.4819401 L61.0456897,17.4819401 C55.2359999,17.4819401 50.5263158,12.7776653 50.5263158,6.92482103 L50.5263158,1.58926729" id="Rectangle-224" stroke-width="2"></path>
+                    <path d="M31.5789474,47.6780185 C29.0481282,47.6780185 23.9864898,47.6780186 23.9864898,47.6780186 C20.5581362,47.6780186 17.5409364,45.7869709 15.7894737,42.9102167" id="Rectangle-224-Copy-3" stroke-width="2"></path>
+                    <path d="M50.5263158,15.8926728 L46.7335677,15.8926729 C40.9799877,15.8926729 36.3157895,11.188398 36.3157895,5.33555374 L36.3157895,0" id="Rectangle-224-Copy-2" stroke-width="2" transform="translate(43.421053, 7.946336) scale(-1, 1) translate(-43.421053, -7.946336) "></path>
+                    <path d="M17.9473684,55 L25.8421053,55" id="Path-1211" stroke-width="2"></path>
+                    <path d="M47.3684211,77.874097 L80.5029306,77.874097 C80.5029306,77.874097 80.9559015,71.824754 77.8746721,66.749226" id="Path-1212" stroke-width="2"></path>
+                    <path d="M87.2631579,77 L95.1578947,77" id="Path-1213" stroke-width="2"></path>
+                    <polyline id="Triangle-1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="51.5263158 77.2848297 57.0526316 56.624355 57.0526316 56.624355 62.5789474 77.2848297"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

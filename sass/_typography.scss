@@ -1,0 +1,50 @@
+﻿/*------------------------------------------------------------------
+
+[Typography]
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+
+-------------------------------------------------------------------*/
+
+body {
+    font: 16px/1.7em 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+h1 {
+    font-size: 60px;
+    letter-spacing: 2.4px;
+    //line-height: 55px;
+}
+h2 {
+    font-size: 46px;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+h3 {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+h4 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+
+
+blockquote {
+    font-size: 16px;
+    border-width: 1px;
+}

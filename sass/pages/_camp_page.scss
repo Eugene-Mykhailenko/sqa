@@ -1,0 +1,148 @@
+﻿
+
+.camp__page__main__section {
+	.main__section__wrap__inner {
+		padding: 0 !important;
+	}
+	.main__section__wrap__inner__left {
+		min-height: 270px;
+		padding: 30px;
+		h4 {
+			margin-top: 0;
+			margin-bottom: 25px;
+		}
+		.main__section__description {
+			max-width: 570px;
+		}
+	}
+	.main__section__wrap__inner__right {
+		//position: absolute;
+		//right: 0;
+		//top: 0;
+		height: 100%;
+		padding: 0;
+		border-left: 1px solid rgba($whiteColor,0.3);
+		text-align: center;
+		h5 {
+			position: relative;
+			margin: 0 0 35px 0;
+			line-height: 55px;
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 40px;
+				height: 1px;
+				margin: auto;
+				background-color: rgba($whiteColor,0.3);
+			}
+		}
+		h6 {
+			//position: absolute;
+			//bottom: 0;
+			//left: 0;
+			//right: 0;
+			margin: 0;
+			line-height: 60px;
+			border-top:  1px solid rgba($whiteColor,0.3);
+		}
+		table {
+			display: inline-block;
+			border-radius: 0;
+			border: none;
+			td {
+				position: relative;
+				padding: 5px 13px;
+				font-size: 10px;
+				font-weight: bold;
+				letter-spacing: 0.6px;
+				border: none;
+				&:not(:nth-child(3)) {
+					&:after {
+						content: '';
+						position: absolute;
+						top: 50%;
+						right: 0;
+						width: 1px;
+						height: 10px;
+						margin-top: -5px;
+						background-color:$whiteColor;
+					}
+				}
+			}
+		}
+	}
+}
+
+.instructors__list {
+	.instructors__list__item {
+		padding: 80px 0;
+		border-bottom: 1px solid $mediumGray;
+		&:first-child {
+			padding-top: 0;
+		}
+		.instructors__list__item__left {
+			text-align: center;
+			.instructors__list__image {
+				width: 200px;
+				height: 200px;
+				margin: 0 auto 40px;
+				border-radius: 50%;
+				overflow: hidden;
+				canvas {
+					display: block;
+					width: 100%;
+					background-size: cover;
+					background-position: center;
+				}
+			}
+			.instructors__list__name {
+				margin-bottom: 15px;
+				color: $darkBlue;
+				text-transform: uppercase;
+			}
+			.instructors__list__post {
+				max-width: 200px;
+				margin: auto;
+				font-size: 14px;
+				font-weight: 300;
+			}
+		}
+		.instructors__list__item__right {
+
+		}
+	}
+}
+
+
+.logos__list {
+	font-size: 0;
+	letter-spacing: 0;
+	line-height: 0;
+	padding: 30px 0;
+	.logos__list__item {
+		display: inline-block;
+		width: 20%;
+		vertical-align: middle;
+		text-align: center;
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+.camp_page__form {
+	h4 {
+		color: $mainColor;
+		text-transform: uppercase;
+	}
+	h5 {
+		margin-bottom: 40px;
+		color: $mainColor;
+		font-size: 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+	}
+}

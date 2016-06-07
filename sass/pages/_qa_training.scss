@@ -1,0 +1,38 @@
+﻿
+
+.seminars__section {
+	padding-top: 0;
+	padding-bottom: 0;
+	p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		margin-bottom: 15px;
+		letter-spacing: 1px;
+	}
+}
+
+.coaching__section {
+	text-align: center;
+	.images__section {
+
+	}
+	h3 {
+		text-transform: uppercase;
+		color: $mainColor;
+		margin-bottom: 30px;
+		span {
+			font-family: 'Open Sans', sans-serif;
+			text-transform: none;
+			font-weight: 300;
+		}
+
+	}
+	h5 {
+		color: $darkGray;
+		margin-bottom: 30px;
+	}
+	p {
+		text-align: left;
+	}
+}

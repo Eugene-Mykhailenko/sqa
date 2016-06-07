@@ -1,0 +1,71 @@
+﻿
+
+// mixin library for Sass http://bourbon.io/docs/
+@import "../bourbon/bourbon";
+
+
+
+/*------------------------------------------------------------------
+	base styles
+-------------------------------------------------------------------*/
+@import "_variables.scss";
+@import "_general.scss";
+@import "_typography.scss";
+@import "_helper.scss";
+
+
+/*------------------------------------------------------------------
+	components
+-------------------------------------------------------------------*/
+@import "_buttons.scss";
+@import "_modal.scss";
+@import "_layouts.scss";
+@import "_slick-slider.scss";
+@import "_waves.scss";
+@import "_form.scss";
+
+/*------------------------------------------------------------------
+	header
+-------------------------------------------------------------------*/
+@import "_mainmenu.scss";
+
+
+/*------------------------------------------------------------------
+	landing sections
+-------------------------------------------------------------------*/
+@import "./landing_sections/_main-section.scss";
+@import "./landing_sections/_about-section.scss";
+@import "./landing_sections/_quote-section.scss";
+@import "./landing_sections/_industries-section.scss";
+@import "./landing_sections/badget-section";
+@import "./landing_sections/_how-work-section.scss";
+@import "landing_sections/circle-section";
+@import "landing_sections/testing-services-section";
+@import "./landing_sections/_customers-section.scss";
+
+/*------------------------------------------------------------------
+	Pages sections
+-------------------------------------------------------------------*/
+@import "pages/camp_page";
+@import "pages/qa_training";
+
+/*------------------------------------------------------------------
+	footer
+-------------------------------------------------------------------*/
+@import "_footer.scss";
+
+/*------------------------------------------------------------------
+	responsive
+-------------------------------------------------------------------*/
+@import "_responsive.scss";
+
+
+
+
+
+
+
+
+
+
+

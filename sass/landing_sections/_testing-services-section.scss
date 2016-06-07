@@ -1,0 +1,59 @@
+﻿
+.testing__services__section {
+	.testing__services__section__wrap {
+		position: relative;
+		height: 255px;
+		.btn__col__left,
+		.btn__col__right {
+			position: absolute;
+			top: 0;
+			width: 270px;
+		}
+		.btn__col__left {
+			left: 0;
+		}
+		.btn__col__right {
+			right: 0;
+		}
+		.btn {
+			height: 52px;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 20px;
+			line-height: 52px;
+			text-transform: none;
+			font-weight: 400;
+			margin-bottom: 45px;
+		}
+	}
+	.image__col{
+		position: absolute;
+		left:0;
+		right: 0;
+		top:0;
+		bottom: 0;
+		margin: auto;
+		width: 170px;
+		height: 170px;
+		canvas	{
+			display: block;
+			width: 100%;
+			height: auto;
+			border: 9px solid $mediumMainColor;
+			border-radius: 50%;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+	.line__col {
+		position: absolute;
+		top: 23px;
+		left: 0;
+		right: 0;
+		width: calc(100% - (280px + 280px));
+		margin: auto;
+		svg {
+			display: block;
+			width: 100%;
+		}
+	}
+}

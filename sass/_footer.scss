@@ -1,0 +1,140 @@
+﻿
+/*------------------------------------------------------------------
+    footer styles
+-------------------------------------------------------------------*/
+
+footer.main__footer {
+    position: relative;
+    width: 100%;
+    color: $whiteColor;
+    font-weight: 300;
+    text-align: left;
+    background-color: $footerBgColor;
+
+    .footer__header {
+        position: relative;
+        margin-bottom: 40px;
+        text-align: center;
+        border-bottom:1px solid $mainColor;
+        @include clearfix;
+
+        //footer logo
+        .footer__logo {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 65px;
+            @include transform(translateY(-50%));
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        //footer menu
+        .footer__menu {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                a {
+                    padding: 0 30px;
+                    color: $whiteColor;
+                    line-height: 130px;
+                    font-weight: 600;
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        // footer social
+        .footer__social {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            padding: 0;
+            list-style: none;
+            @include transform(translateY(-50%));
+            li {
+                display: inline-block;
+                margin-left: 15px;
+                a {
+                    display: block;
+                    height: 32px;
+                    width: 32px;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: $footerBgColor;
+                    background-color: $whiteColor;
+                    border-radius: 50%;
+                    opacity: 1;
+                    span {
+                        color: inherit;
+                    }
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__link__wiget {
+        a {
+            display: block;
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+
+
+    .footer__tell {
+        position: relative;
+        margin-bottom: 40px;
+        a {
+            color: $whiteColor;
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+        i {
+            position: absolute;
+            top: 4px;
+            left: -20px;
+        }
+    }
+    .footer__adress {
+        position: relative;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 600;
+        i {
+            position: absolute;
+            top: 4px;
+            left: -20px;
+        }
+    }
+    
+
+
+    // copyright
+    .footer__copyright {
+        margin-top: 50px;
+        background-color: $copyrightBgColor;
+        p {
+            margin: 0;
+            font-size: 12px;
+            color: rgba($whiteColor, 0.5);
+            line-height: 80px;
+            text-align: center;
+        }
+
+    }
+}

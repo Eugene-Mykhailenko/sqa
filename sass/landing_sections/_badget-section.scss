@@ -1,0 +1,31 @@
+﻿
+/*------------------------------------------------------------------
+    badget__section  styles
+-------------------------------------------------------------------*/
+.badget__section {
+    padding: 50px 0 60px;
+    text-align: center;
+    color: $whiteColor;
+    
+    .theme__section_header {
+        margin-bottom: 0;
+        .theme__section_header_title {
+            color: $whiteColor;
+        }
+    }
+
+    .badget__section__title {
+        margin-bottom: 30px;
+        font-size: 24px;
+        letter-spacing:0.8px;
+    }
+    .badget__section__description {
+        margin:0 0 30px;
+        line-height: 26px;
+    }
+
+    .btn {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

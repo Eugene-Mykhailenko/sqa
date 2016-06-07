@@ -1,0 +1,49 @@
+﻿
+/*------------------------------------------------------------------
+    industries section styles
+-------------------------------------------------------------------*/
+
+.industries__list {
+    font-size: 0;
+    letter-spacing: 0;
+    line-height: 0;
+    .industries__list__item {
+        display: inline-block;
+        width: calc((100% / 3) - 30px);
+        margin:0 15px 30px;
+        padding-bottom: 25px;
+        vertical-align: top;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+        background-color: $whiteColor;
+        overflow: hidden;
+        @include transition(box-shadow 0.5s);
+        &:hover {
+            box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+            background-position: center;
+            background-size: cover;
+        }
+        h4 {
+            margin: 20px 0 15px;
+            color: $mediumGray;
+            text-transform: uppercase;
+        }
+        p {
+            padding: 0 10%;
+            margin-bottom: 20px;
+            color:$lightGray;
+            font-size: 14px;
+            letter-spacing: 0.8px;
+            line-height: 22px;
+        }
+        .see-more-btn {
+            font-size: 16px;
+        }
+    }
+}

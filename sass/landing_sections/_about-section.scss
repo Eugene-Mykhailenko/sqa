@@ -1,0 +1,19 @@
+﻿
+/*------------------------------------------------------------------
+    about Section styles
+-------------------------------------------------------------------*/
+
+.about__block__col {
+    text-align: center;
+    img {
+        display: block;
+        width: 100px;
+        height: auto;
+        margin: 0 auto 40px;
+    }
+    h4 {
+        color: $menuColor;
+        line-height: 30px;
+        letter-spacing: 1.3px;
+    }
+}

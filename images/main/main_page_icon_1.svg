@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="521px" height="278px" viewBox="0 0 521 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="42" y="0" width="292" height="182" rx="10"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="292" height="182" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M69.2792969,245 L4.00699336,245 C1.79399203,245 0,243.211496 0,241.000315 L0,137.999685 L0,137.999685 C0,135.79072 1.79131815,134 4.00326252,134 L78.9967375,134 C81.2076783,134 83,135.790513 83,137.992559 L83,172.185547" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="83" height="111" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="65" y="171" width="41" height="74" rx="5"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41" height="74" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M263,114.990347 C263,113.338824 264.341894,112 266.000392,112 L467.999608,112 C469.656679,112 471,113.34014 471,114.997218 L471,237 L263,238 L263,114.990347 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="208" height="126" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M52,134.557542 L52,15.0058175 C52,12.7934656 53.795548,11 55.9998119,11 L318.000188,11 C320.209223,11 322,12.7873909 322,14.9956622 L322,111.583008 M263.518555,150 L82.3710938,150" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="270" height="140" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="247" y="236" width="240" height="7"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="240" height="7" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <polygon id="path-13" points="466 117 466 230 268 230 268 117"></polygon>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="198" height="113" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-19">
+            <g id="Icon-1" transform="translate(17.000000, 17.000000)">
+                <use id="Rectangle-371" stroke="#4990E2" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <text id="Type-something" font-family="Multicolore, Multicolore " font-size="12" font-weight="bold" fill="#4990E2">
+                    <tspan x="175" y="170">SQA</tspan>
+                </text>
+                <path d="M227.569077,182 L227.569077,216.900339 C227.569077,227.299479 237.569077,242.769531 237.569077,242.769531 L138,242.769531 C138,242.769531 148,227.707904 148,216.900339 C148,206.092773 148,182 148,182" id="Rectangle-190" stroke="#4990E2" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <use id="Rectangle-359" stroke="#4A90E2" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <circle id="Oval-43" fill="#4990E2" fill-rule="evenodd" cx="41" cy="235" r="3"></circle>
+                <use id="Rectangle-360" stroke="#4990E2" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <use id="Rectangle-370" stroke="#979797" mask="url(#mask-8)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <circle id="Oval-43-Copy-4" fill="#4990E2" fill-rule="evenodd" cx="86" cy="235" r="3"></circle>
+                <use id="Rectangle-359" stroke="#4990E2" mask="url(#mask-10)" stroke-width="2" xlink:href="#path-9"></use>
+                <path d="M308.97435,112 L467.392645,112 C469.384932,112 471,113.613414 471,115.613455 L471,235.992778 M263,237.258789 L263,163.799485 L263,115.601313 C263,113.612363 264.621521,112 266.596393,112 L309.323648,112" id="Rectangle-361" stroke="#4990E2" stroke-width="2.4"></path>
+                <use id="Rectangle-361" stroke="#4990E2" mask="url(#mask-12)" stroke-width="4.8" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                <use id="Rectangle-362" stroke="#4990E2" mask="url(#mask-14)" stroke-width="2.4" xlink:href="#path-13"></use>
+                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(167.930850, 88.000000) rotate(-300.000000) translate(-167.930850, -88.000000) translate(127.930850, 28.500000)">
+                    <circle id="Oval-115" stroke="#4A90E2" stroke-width="2" cx="40" cy="40" r="40"></circle>
+                    <path d="M40.8660254,81.516416 L40.8660254,117.866025" id="Path-903" stroke="#4990E2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-Copy" stroke-width="1" fill-rule="evenodd" transform="translate(185.000000, 78.000000) rotate(-300.000000) translate(-185.000000, -78.000000) translate(149.000000, 42.000000)" stroke="#4A90E2">
+                    <circle id="Oval-115" cx="36" cy="36" r="36"></circle>
+                </g>
+                <g id="bug" stroke-width="1" fill-rule="evenodd" transform="translate(170.000000, 65.000000)" fill="#4990E2">
+                    <g id="Bug">
+                        <path d="M14.56,0 C11.3433633,0 8.736,2.61165589 8.736,5.83338953 L20.384,5.83338953 C20.384,2.61165589 17.7766367,0 14.56,0 L14.56,0 Z M27.664,13.1251264 L23.296,13.1251264 L23.296,9.48388649 C23.296,9.44347568 23.2864023,9.40582436 23.2842696,9.3659476 L26.5094376,6.1354019 C27.0781876,5.56591302 27.0781876,4.64251852 26.5094376,4.07302949 C25.941043,3.5034515 25.0189572,3.5034515 24.4505626,4.07302949 L21.2250392,7.30357519 C21.1852266,7.30143901 21.1479023,7.29173691 21.1077344,7.29173691 L8.01226564,7.29173691 C7.97209766,7.29173691 7.93477339,7.30143901 7.89496096,7.30357534 L4.66943757,4.07302963 C4.10104298,3.50345165 3.17895716,3.50345165 2.61056257,4.07302963 C2.04181257,4.64251852 2.04181257,5.56591302 2.61056257,6.13540204 L5.83573056,9.36594775 C5.83359766,9.40582436 5.824,9.44347583 5.824,9.48388649 L5.824,13.1251264 L1.456,13.1251264 C0.651929678,13.1251264 0,13.7780182 0,14.5834738 C0,15.3888405 0.651929678,16.0418212 1.456,16.0418212 L5.824,16.0418212 C5.824,17.1792859 6.0515,18.2596949 6.44607032,19.255633 C6.38173041,19.3017404 6.30814839,19.3278204 6.25056257,19.3856773 L2.13210161,23.510422 C1.56370702,24.08 1.56370702,25.0033945 2.13210161,25.5728833 C2.70085161,26.1423722 3.62293757,26.1423722 4.19133202,25.5728833 L7.97920702,21.7789015 C9.27844532,23.2686695 11.0696523,24.3181029 13.104,24.6607041 L13.104,10.2084317 L16.016,10.2084317 L16.016,24.6607041 C18.0503477,24.3181029 19.8415547,23.2686695 21.140793,21.7789904 L24.928668,25.5728833 C25.4970626,26.1423722 26.4191484,26.1423722 26.9878984,25.5728833 C27.556293,25.0033945 27.556293,24.08 26.9878984,23.510422 L22.8694374,19.3856773 C22.8118515,19.3278204 22.7382694,19.3017404 22.6739297,19.255633 C23.0685,18.2596949 23.296,17.1792859 23.296,16.0418212 L27.664,16.0418212 C28.4680703,16.0418212 29.12,15.3888405 29.12,14.5834738 C29.12,13.7780182 28.4680703,13.1251264 27.664,13.1251264 L27.664,13.1251264 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <path d="M83,150.5 L262.970812,150.5" id="Path-908-Copy" stroke="#4990E2" stroke-width="1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

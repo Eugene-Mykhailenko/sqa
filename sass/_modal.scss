@@ -1,0 +1,117 @@
+﻿/*------------------------------------------------------------------
+    modal styles
+-------------------------------------------------------------------*/
+
+.modal {
+    @include linear-gradient(rgba(0,30,58,0.4), #000D37);
+	z-index: 999999;
+	.modal-header {
+		padding: 30px 60px 25px;
+		border: 0;
+		@include clearfix;
+		.close {
+			position: absolute;
+			top:20px;
+			right: 20px;
+			width: 24px;
+			height: 24px;
+			color: transparent;
+			font-size: 0;
+			opacity: 0.6;
+			@include transition(opacity 0.5s);
+			&:before,
+			&:after {
+				content: '';
+				position: absolute;
+				top: 11px;
+				width: 24px;
+				height: 1px;
+				background-color: #000;
+			}
+			&:before {
+				right: 0;
+				@include transform(rotate(45deg));
+			}
+			&:after {
+				left: 0;
+				@include transform(rotate(-45deg));
+			}
+			&:hover {
+				opacity: 0.2;
+			}
+		}
+		.modal__logo {
+			float: left;
+			width: 67px;
+			svg {
+				display: block;
+				width: 100%;
+				path {
+					fill: $menuColor;
+				}
+			}
+		}
+		.modal_tell {
+			float: right;
+			a {
+				display: block;
+				margin-top: 20px;
+				font-size: 16px;
+				color: $mainColor;
+				letter-spacing: 1px;
+			}
+		}
+	}
+	.modal-body {
+		padding: 0;
+		.form__inner {
+			padding:0 60px;
+		}
+		h4 {
+			color: $mainColor;
+		}
+		.modal__social {
+			padding: 30px 0;
+			text-align: center;
+			a {
+				display: inline-block;
+				height: 32px;
+				width: 32px;
+				margin: 0 7px;
+				font-size: 16px;
+				line-height: 32px;
+				color: $whiteColor;
+				background-color: #B1B7BE;
+				border-radius: 50%;
+				opacity: 1;
+				text-align: center;
+				span {
+					color: inherit;
+				}
+				&:hover {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+}
+
+.modal.fade .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%,-100%));
+    z-index: 5;
+	max-width: 550px;
+	margin: 0;
+}
+
+
+.modal.in .modal-dialog {
+    @include transform(translate(-50%,-50%));
+}
+
+
+.modal-content {
+    border-radius: 0;
+}

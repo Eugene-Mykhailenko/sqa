@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="521px" height="278px" viewBox="0 0 521 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard 19</title>
@@ -37,9 +37,7 @@
         <g id="Artboard-19">
             <g id="Icon-1" transform="translate(17.000000, 17.000000)">
                 <use id="Rectangle-371" stroke="#4990E2" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <text id="Type-something" font-family="Multicolore, Multicolore " font-size="12" font-weight="bold" fill="#4990E2">
-                    <tspan x="175" y="170">SQA</tspan>
-                </text>
+            
                 <path d="M227.569077,182 L227.569077,216.900339 C227.569077,227.299479 237.569077,242.769531 237.569077,242.769531 L138,242.769531 C138,242.769531 148,227.707904 148,216.900339 C148,206.092773 148,182 148,182" id="Rectangle-190" stroke="#4990E2" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd"></path>
                 <use id="Rectangle-359" stroke="#4A90E2" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
                 <circle id="Oval-43" fill="#4990E2" fill-rule="evenodd" cx="41" cy="235" r="3"></circle>

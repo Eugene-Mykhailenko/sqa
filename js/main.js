@@ -81,20 +81,16 @@ $(document).ready(function () {
         windowHeight = $(window).height();
     });
 
+    $('.main__theme__wrap').on("click", function () {
+        if ($(this).hasClass('-menu_is_open')) {
+            $('.main__theme__wrap, .open__menu__btn, .main__menu').removeClass(' -menu_is_open');
+        }
+
+    });
+
     // mobile menu END
 
 
-    ////dropdown
-    //$('.dropdown__menu').dropdown({
-    //        inDuration: 300,
-    //        outDuration: 225,
-    //        constrain_width: true, // Does not change width of dropdown to that of the activator
-    //        //hover: true, // Activate on hover
-    //        gutter:0, // Spacing from edge
-    //        belowOrigin: true, // Displays dropdown below the button
-    //        alignment: 'left' // Displays dropdown with edge aligned to the left of button
-    //    }
-    //);
 
 
 

@@ -27,6 +27,7 @@
             height: 100vh;
             padding: 0;
             background-color: $menuColor;
+			border-left:1px solid rgba($whiteColor,0.3);
             li {
                 float: none;
                 text-align: right;
@@ -46,6 +47,7 @@
         &.-navbar_scroll {
             .navbar-nav {
                 background-color: #fff;
+				border-color:rgba($darkMainColor,0.4);
             }
             .open__menu__btn {
                 span {
@@ -297,6 +299,18 @@
             }
         }
     }
+	.tags__list span {
+		display: block;
+		margin-bottom: 10px;
+	}
+	.seminars__section {
+		p {
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+			font-size: 16px;
+			border-bottom: 1px solid rgba($mainColor,0.1);
+		}
+	}
 
     // footer
     footer.main__footer {
@@ -421,28 +435,44 @@
     //-----------------------
     .circle__block {
         top: 0;
-        border-radius: 20px;
-        padding: 20px;
-        &:before {
-            @include transform(rotate(35deg));
-        }
-        &:after {
-            @include transform(rotate(-35deg));
-        }
-        canvas{
-            display: none;
-        }
+        //border-radius: 20px;
+        padding: 5px;
+		border-width: 4px;
+        //&:before {
+        //    @include transform(rotate(35deg));
+        //}
+        //&:after {
+        //    @include transform(rotate(-35deg));
+        //}
+        //canvas{
+        //    display: none;
+        //}
         .circle__block__row__item {
-            position: relative;
-            top: 0 !important;
-            bottom: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            width: auto;
-            @include transform(translate(0,0) !important);
+			width: calc(55% - 80px);
+            //top: 0 !important;
+            //bottom: 0 !important;
+            //left: 0 !important;
+            //right: 0 !important;
+            //width: auto;
+            //@include transform(translate(0,0) !important);
+			&.top__item,
+			&.bottom__item {
+				width: calc(55% - 45px);
+			}
             &.center__circle {
-                margin: 20px auto;
+                width: 80px;
+				height: 80px;
+				h4 {
+					line-height: 80px;
+					font-size: 14px;
+				}
             }
+			h4 {
+				font-size: 12px;
+			}
+			p {
+				display: none;
+			}
         }
     }
 

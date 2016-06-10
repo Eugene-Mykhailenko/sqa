@@ -142,6 +142,7 @@ textarea.materialize-textarea {
     content: attr(data-error);
     color: $input-error-color;
     opacity: 1;
+      display: none;
   }
 
   // Form Message Shared Styles

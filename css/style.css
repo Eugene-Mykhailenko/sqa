@@ -4429,58 +4429,10 @@ select {
 	Pages sections
 -------------------------------------------------------------------*/
 .camp__page__main__section .main__section__wrap__inner {
-  padding: 0 !important; }
-.camp__page__main__section .main__section__wrap__inner__left {
-  min-height: 270px;
-  padding: 30px; }
-  .camp__page__main__section .main__section__wrap__inner__left h4 {
-    margin-top: 0;
-    margin-bottom: 25px; }
-  .camp__page__main__section .main__section__wrap__inner__left .main__section__description {
+  padding: 0 !important;
+  background-color: transparent !important; }
+  .camp__page__main__section .main__section__wrap__inner .main__section__description {
     max-width: 570px; }
-.camp__page__main__section .main__section__wrap__inner__right {
-  height: 100%;
-  padding: 0;
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  text-align: center; }
-  .camp__page__main__section .main__section__wrap__inner__right h5 {
-    position: relative;
-    margin: 0 0 35px 0;
-    line-height: 55px; }
-    .camp__page__main__section .main__section__wrap__inner__right h5:after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 40px;
-      height: 1px;
-      margin: auto;
-      background-color: rgba(255, 255, 255, 0.3); }
-  .camp__page__main__section .main__section__wrap__inner__right h6 {
-    margin: 0;
-    line-height: 60px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3); }
-  .camp__page__main__section .main__section__wrap__inner__right table {
-    display: inline-block;
-    border-radius: 0;
-    border: none; }
-    .camp__page__main__section .main__section__wrap__inner__right table td {
-      position: relative;
-      padding: 5px 13px;
-      font-size: 10px;
-      font-weight: bold;
-      letter-spacing: 0.6px;
-      border: none; }
-      .camp__page__main__section .main__section__wrap__inner__right table td:not(:nth-child(3)):after {
-        content: '';
-        position: absolute;
-        top: 50%;
-        right: 0;
-        width: 1px;
-        height: 10px;
-        margin-top: -5px;
-        background-color: #fff; }
 
 .instructors__list .instructors__list__item {
   padding: 80px 0;

@@ -1,0 +1,158 @@
+﻿.social__callback {
+  margin-top: 65px;
+  border-top: 1px solid #DEDDDE;
+}
+
+.social{
+    padding: 70px 0 60px 0;
+    &__title_left{
+        margin-left: 20px;
+        font-size: 36px;
+        color: #014d8f;
+        letter-spacing: 1.2px
+    }
+    &__title_right{
+        font-size: 36px;
+        color: #014d8f;
+        text-align: right;
+        letter-spacing: 1.2px
+    }
+    &__wrap{
+
+        margin-bottom: 40px;
+        @include display(flex);
+        @include justify-content(space-between);
+    }
+    &__twitter, &__facebook , &__google{
+        width: 165px;
+        height: 45px;
+        border-radius: 4px;
+        border: 0;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: left;
+        img{
+            padding: 0px 8px 0 10px;
+        }
+    }
+    &__item{
+        @include display(flex);
+        @include justify-content(flex-start);
+        margin-bottom: 30px;
+        img{
+            margin-right: 20px;
+        }
+    }
+    &__twitter{
+        background: #11c1ff;
+    }
+    &__facebook{
+        background: #3765a3;
+    }
+    &__google{
+        background: #db483b;
+    }
+    &__group{
+        margin-top: 65px;
+        margin-left: 40px;
+    }
+    &__input{
+        width: 390px !important;
+        height: 62px !important;
+        border-radius: 6px !important;
+        box-sizing: border-box !important;
+        box-shadow: none !important;
+        outline: none !important;
+        border: 1px solid #9b9b9b !important;
+        padding-left: 25px !important
+    }
+    &__button{
+        width: 222px;
+        height: 62px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #276cf2;
+        border: 0;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 10px; 
+        letter-spacing: 0.94px;
+        margin-top: 30px;
+    }
+    &__callback-wrap{
+        @include display(flex);
+        @include justify-content(space-between);
+        @include align-items(center);
+        padding-top: 45px;
+        p{
+            margin: 0;
+        }
+    }
+    &__find{
+        font-size: 36px;
+        color: #014d8f;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+    &__address{
+        color: #0e0e0e;
+        font-size: 20px;
+        @include display(flex);
+        @include align-items(center);
+    }
+    &__mark{
+        margin-left: 55px;
+        margin-right: 24px;
+    }
+    &__icon{
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 560px){
+    .social__wrap{
+        @include display(flex);
+        @include flex-direction(column);
+        @include align-items(center);
+        button{
+            margin-bottom: 15px;
+        }
+    }
+    .social__title_left{
+        margin: 0;
+        text-align: center;
+    }
+    .social__group{
+        margin-left: 0;
+    }
+    .social__input{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width: 560px) and (max-width: 991px){
+    .social__wrap{
+        @include justify-content(center);
+        button{
+            margin: 0 10px;
+        }
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .social__address, .social__callback{
+        @include flex-direction(column);
+    }
+    .social__mark{
+        margin: 10px 0 10px 0;
+    }
+    .social__find, .social__mark{
+        margin-bottom: 10px;
+    }
+    .phone{
+        margin-top: 10px;
+    }
+    .social__title_right{
+        text-align: center;
+    }
+}

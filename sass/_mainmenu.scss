@@ -78,7 +78,7 @@
         font-weight: bold;
         @include transition(0.5s);
         > li {
-            > a {
+            > a:not(.btn) {
                 position: relative;
                 padding: 0 20px;
                 color: $whiteColor;
@@ -100,6 +100,18 @@
                     background-color: $whiteColor;
                     @include transition(width 0.5s);
                 }
+                &.btn {
+                    height: 42px;
+                    border-radius: 6px;
+                    background-color: $blueBtnColor;
+                    font-size: 15px;
+                    line-height: 42px;
+                    &:hover {
+
+                    }
+                }
+
+
 
                 &:hover,
                 &:focus {
@@ -249,8 +261,29 @@
         }
     }
 }
+$blue2: #276cf2;
+.btn-blue2{
+    background: $blue2;
+}
 
-
-
-
+@media screen and (min-width: 1024px){
+    .main__menu .navbar-nav > li:last-child > a::after{
+        display: none;
+    }
+    .main__menu .navbar-nav{
+        display: flex;
+        align-items: center;
+    }
+    .btn-bg{
+        /* background: $blue2; */
+        height: 42px;
+        line-height: 42px !important;
+        padding: 0 21px !important;
+        border-radius: 6px;
+    }
+    .btn-style{
+        height: 42px;
+        line-height: 42px !important;
+    }
+}
 

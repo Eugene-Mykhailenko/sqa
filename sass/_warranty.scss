@@ -1,0 +1,28 @@
+﻿.warranty{
+    margin-bottom: 100px;
+    &__p{
+        max-width: 660px;
+        color: #0e0e0e;
+        font-size: 20px;
+    }
+    &__flex{
+        @include display(flex);
+        @include align-items(center);
+    }
+    &__img{
+        display: block;
+        margin: auto;
+    }
+    &__title{
+        font-size: 36px;
+        color: #014d8f;
+        letter-spacing: 1.2px;
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+}
+@media (min-width: 320px) and (max-width:669px){
+    .warranty__flex{
+        display: block;
+    }
+}

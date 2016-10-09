@@ -1,0 +1,48 @@
+﻿.say{
+    &__wrap{
+        position: relative;
+        height: 100%;
+        padding: 30px 35px 30px 35px;
+        margin: 0 60px 0 60px ;
+        border-radius: 8px;
+        border: 1px solid #969396;
+        overflow: hidden;
+        @include display(flex);
+        @include align-items(flex-start);
+    }
+    &__quote{
+        position: absolute;
+        top: 20px !important;
+        left: 140px !important;
+    }
+    &__text{
+        margin-left: 40px;
+    }
+    &__name{
+        @include justify-content(flex-start);
+        @include display(flex);
+        @include align-items(center);
+        margin-top: 20px;
+        font-size: 16px;
+        color: #000;
+    }
+    &__qa{
+        color: #9b9b9b;
+        margin-left: 5px;
+    }
+    &__link{
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .say__quote{
+        top: -125px !important;
+        left: -110px !important;
+    }
+    .say__wrap{
+        @include flex-direction(column);
+    }
+    .say__text{
+        margin: 0;
+    }
+}

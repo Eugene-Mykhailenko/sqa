@@ -1,0 +1,17 @@
+﻿.audience{
+    &__title{
+        color: #014d8f;
+        font-size: 36px;
+        text-align: center;
+        margin: 70px 0 35px 0;
+    }
+    &__block{
+        min-height: 176px;
+        @include display(flex);
+        @include align-items(center);
+        @include justify-content(center);
+    }
+    &__p{
+        text-align: center;
+    }
+}

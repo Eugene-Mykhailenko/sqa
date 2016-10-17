@@ -217,6 +217,9 @@ header.main__header {
                 @include linear-gradient(transparent, $blackColor);
             }
         }
+        &.-overlay_black {
+            background-color: rgba(0,0,0,1);
+        }
         &.-overlay_light {
             background-color: $whiteColor;
             &.-gradient {
@@ -484,5 +487,20 @@ hr {
                 background-color: $mediumMainColor;
             }
         }
+    }
+}
+
+
+.tabs {
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        margin-right: 12px;
+        margin-top: 5px;
+        &:last-child {
+            margin-right: 0;
+        }
+
     }
 }

@@ -3,75 +3,9 @@
 .camp__page__main__section {
 	.main__section__wrap__inner {
 		padding: 0 !important;
-	}
-	.main__section__wrap__inner__left {
-		min-height: 270px;
-		padding: 30px;
-		h4 {
-			margin-top: 0;
-			margin-bottom: 25px;
-		}
+		background-color: transparent !important;
 		.main__section__description {
 			max-width: 570px;
-		}
-	}
-	.main__section__wrap__inner__right {
-		//position: absolute;
-		//right: 0;
-		//top: 0;
-		height: 100%;
-		padding: 0;
-		border-left: 1px solid rgba($whiteColor,0.3);
-		text-align: center;
-		h5 {
-			position: relative;
-			margin: 0 0 35px 0;
-			line-height: 55px;
-			&:after {
-				content: '';
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				width: 40px;
-				height: 1px;
-				margin: auto;
-				background-color: rgba($whiteColor,0.3);
-			}
-		}
-		h6 {
-			//position: absolute;
-			//bottom: 0;
-			//left: 0;
-			//right: 0;
-			margin: 0;
-			line-height: 60px;
-			border-top:  1px solid rgba($whiteColor,0.3);
-		}
-		table {
-			display: inline-block;
-			border-radius: 0;
-			border: none;
-			td {
-				position: relative;
-				padding: 5px 13px;
-				font-size: 10px;
-				font-weight: bold;
-				letter-spacing: 0.6px;
-				border: none;
-				&:not(:nth-child(3)) {
-					&:after {
-						content: '';
-						position: absolute;
-						top: 50%;
-						right: 0;
-						width: 1px;
-						height: 10px;
-						margin-top: -5px;
-						background-color:$whiteColor;
-					}
-				}
-			}
 		}
 	}
 }

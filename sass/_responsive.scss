@@ -521,5 +521,107 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+	.main__h3{
+		font-size: 18px !important;
+	}
+	.main__section__description{
+		font-size: 13px !important;
+	}
+	.waves-effect{
+		width: 100%;
+		font-size: 9px;
+	}
+	.btn-mobile{
+		width: 100%;
+		position: relative;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.footer__link__wiget{
+		a{
+			color: #fff !important;
+			opacity: 0.8 !important;
+		}
+	}
+	.main__menu.-navbar_scroll .navbar-nav{
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.main__menu .navbar-nav > li > a:not(.btn)::after{
+		display: none;
+	}
+	.main__menu .navbar-nav li{
+		text-align: center;
+	}
+	.social__item{
+		align-items: center;
+	}
+	h3{
+		font-size: 26px !important;
+	}
+	.want__item{
+		flex-direction: column;
+	}
+	.want__img{
+		margin: 0 !important;
+	}
+	.want__p{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px !important;
+	}
+	.courses_desc, .courses__sub2, .courses img{
+		text-align: center;
+        display: block;
+		margin: 10px auto;
+	}
+    .courses__item {
+      .courses__icon {
+        display: inline-block;
+      }
+    }
 
-
+	.courses_desc{
+		margin-bottom: 20px;
+	}
+	.say__bg{
+		width: 180px;
+        height: auto;
+		margin: auto;
+	}
+	.say__wrap {
+        display: block !important;
+		margin: 0 !important;
+	}
+	.testimonials__section{
+		margin-bottom: 40px;
+	}
+	.warranty__p{
+		text-align: center;
+	}
+	.warranty{
+		margin-bottom: 0 !important;
+	}
+	.faq__faq{
+		margin-top: 0 !important;
+	}
+	.faq__title{
+		margin: 50px 0 !important;
+	}
+	.accordeon-title{
+		font-size: 14px !important;
+	}
+	.faq__desc span{
+		font-size: 26px !important;
+	}
+	.faq__desc{
+		font-size: 18px;
+	}
+	.social__callback-wrap{
+		display: flex;
+		flex-direction: column;
+	}
+}

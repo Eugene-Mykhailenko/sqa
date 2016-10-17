@@ -1,10 +1,13 @@
-﻿var contents = $('.accordeon-content');
+var contents = $('.accordeon-content');
 var titles = $('.accordeon-title');
 titles.on('click', function() {
 var title = $(this);
+$(this).children('.transley').toggleClass('transley-on');
 contents.filter(':visible').slideUp(function(){
  $(this).prev('.accordeon-title').removeClass('is-opened');
 });  
+
+
 
 var content = title.next('.accordeon-content'); 
 

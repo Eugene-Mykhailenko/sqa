@@ -12,8 +12,10 @@
         <link href="./images/favicon.png" rel="shortcut icon" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600,700&subset=cyrillic" rel="stylesheet">
         <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="./css/style.min.css" rel="stylesheet" type="text/css" />
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -80,63 +82,13 @@
                         <li><a href="#">IT Staffing</a></li>
                         <li><a href="qa_services.html">QA Training</a></li>
                         <li><a href="#">Contacts</a></li>
-                        <li><button class="btn btn-blue btn-blue2 waves-effect waves-blue">Записаться</button></li>
+                        <li><button class="btn btn-blue btn-blue2 waves-effect waves-blue btn-mobile">Записаться</button></li>
                     </ul>
                 </div>
             </nav>
             <!-- main menu -->
         </header>
 
-		<div class="vertical__nav">
-			<a class="active" href="#audience">
-				<span>For who is this course</span><i></i>
-			</a>
-			<a href="#want">
-				<span>Tired of watching and manual testing?</span><i></i>
-			</a>
-			<a href="#opport">
-				<span>Enough to wash your fingers</span><i></i>
-			</a>
-			<a href="#start">
-				<span>Start right now!</span><i></i>
-			</a>
-			<a href="#courses">
-				<span>Intensive course QA</span><i></i>
-			</a>
-			<a href="#graduates">
-				<span>Our graduates say</span><i></i>
-			</a>
-			<a href="#video_section">
-				<span>It’s better once to see!</span><i></i>
-			</a>
-			<a href="#staff">
-				<span>Companies where our graduates works</span><i></i>
-			</a>
-			<a href="#testimonials__section_cv">
-				<span>Teachers with over 15 years practical experience in IT</span><i></i>
-			</a>
-			<a href="#advant">
-				<span>What do you get after the course</span><i></i>
-			</a>
-			<a href="#summary">
-				<span>Your CV will looks like this!</span><i></i>
-			</a>
-			<a href="#training_modules">
-				<span>Ytaning modules</span><i></i>
-			</a>
-			<a href="#advert">
-				<span>Make a step to job of your dream!</span><i></i>
-			</a>
-			<a href="#warranty">
-				<span>We give 100% money-back guarantee</span><i></i>
-			</a>
-			<a href="#faq">
-				<span>FAQ</span><i></i>
-			</a>
-			<a href="#subscribe">
-				<span>Subscribe</span><i></i>
-			</a>
-		</div>
 
         <div class="main__theme__wrap">
             <!-- top section -->
@@ -146,7 +98,7 @@
                         <div class="col-md-12">
                             <div class="main__section__wrap">
                                 <div class="main__section__wrap__inner">
-									<h3>Become a QA automation engineer for 6 weeks</h3>
+									<h3 class="main__h3">Become a QA automation engineer for 6 weeks</h3>
 									<div class="main__section__description">
 										Пройди 120 часовой интенсивный курс,
 										изучая самое актуальное ПО на реальных проектах
@@ -162,6 +114,9 @@
                     <div class="-image " style="background-image:url('images/camp_page/camp-bg.jpg')"></div>
                 </div>
                 <div class="theme__section__overlay -overlay_black -opacity_50"></div>
+                <div class="arrow__bottom">
+                    <i class="fa fa-angle-double-down"></i>
+                </div>
             </section>
             <!-- top section end -->
 
@@ -209,21 +164,21 @@
                 <div class="container">
                     <h3 class="audience__title">For who is this course</h3>
                     <div class="row">
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4 audience__wrap">
                             <div class="audience__block">
-                                <img src="images/camp_page/audi1.png" alt="">
+                                <img src="images/camp_page/svg/audi1.svg" alt="">
                             </div>
                             <p class="audience__p">Для QA инженеров, которым надоела рутинная работа, не раскрывающая настоящий потенциал</p>
                         </div>
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4 audience__wrap">
                             <div class="audience__block">
-                                <img src="images/camp_page/audi2.png" alt="">
+                                <img src="images/camp_page/svg/audi2.svg" alt="">
                             </div>
                             <p class="audience__p">Дле тех,  кто хочет подняться на новую ступень в карьерном развитии и значительно поднять свою стоимость на рынке труда</p>
                         </div>
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4 audience__wrap">
                             <div class="audience__block">
-                                <img src="images/camp_page/audi3.png" alt="">
+                                <img src="images/camp_page/svg/audi3.svg" alt="">
                             </div>
                             <p class="audience__p">Для тех , кто ищет работу и нужно действительно убедительное CV, с которым можно уверенно идти на собеседование</p>
                         </div>
@@ -235,28 +190,28 @@
                 <h3 class="want__title">Tired of watching and manual testing?</h3>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-sm-7">
+                        <div class="col-md-8 col-sm-12">
                             <ul class="want__list">
                                 <li class="want__item">
-                                    <img class="want__img" src="images/camp_page/want1.png" alt="">
+                                    <img class="want__img" src="images/camp_page/svg/want1.svg" alt="">
                                     <p class="want__p">Вы зарабатываете не так много, как хотелось бы</p>
                                 </li>
                                 <li class="want__item">
-                                    <img class="want__img" src="images/camp_page/want2.png" alt="">
+                                    <img class="want__img" src="images/camp_page/svg/want2.svg" alt="">
                                     <p class="want__p">Вы делаете много рутинногой, примитивной, скучной работы!</p>
                                 </li>
                                 <li class="want__item">
-                                    <img class="want__img" src="images/camp_page/want3.png" alt="">
+                                    <img class="want__img" src="images/camp_page/svg/want3.svg" alt="">
                                     <p class="want__p">Вы видите предложения о работе в топовых кампаниях, но ваши скиллы не дотягивают</p>
                                 </li>
                                 <li class="want__item">
-                                    <img class="want__img" src="images/camp_page/want4.png" alt="">
+                                    <img class="want__img" src="images/camp_page/svg/want4.svg" alt="">
                                     <p class="want__p">Вы понимаете что отстаете от потребностей рынка и боитесь, что завтра будете не нужны</p>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-4 col-sm-5">
-                            <img class="want__bg" src="images/camp_page/want-bg.png" alt="">
+                        <div class="col-md-4 col-sm-12">
+                            <img style="margin: auto; display: block;" class="want__bg" src="images/camp_page/want-bg.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -279,37 +234,37 @@
                         <ul class="opport__list">
                             <li class="col-md-4 col-sm-6 col-xs-6 opport__item">
                                 <div class="opport__block">
-                                    <img src="images/camp_page/opport1.png" alt="">
+                                    <img src="images/camp_page/svg/opport1.svg" alt="">
                                 </div>
                                 <p class="opport__text">Возможность получить работу с доходом более 100 000$</p>
                             </li>
                             <li class="col-md-4 col-sm-6 col-xs-6 opport__item">
                                 <div class="opport__block">
-                                    <img src="images/camp_page/opport2.png" alt="">
+                                    <img src="images/camp_page/svg/opport2.svg" alt="">
                                 </div>
                                 <p class="opport__text">Вам будут предлагать работу HR по востребованным навыкам</p>
                             </li>
                             <li class="col-md-4 col-sm-6 col-xs-6 opport__item">
                                 <div class="opport__block">
-                                    <img src="images/camp_page/opport3.png" alt="">
+                                    <img src="images/camp_page/svg/opport3.svg" alt="">
                                 </div>
                                 <p class="opport__text">Убедительное CV для получения работы, о которой Вы мечтаете</p>
                             </li>
                             <li class="col-md-4 col-sm-6 col-xs-6 opport__item">
                                 <div class="opport__block">
-                                    <img src="images/camp_page/opport4.png" alt="">
+                                    <img src="images/camp_page/svg/opport4.svg" alt="">
                                 </div>
                                 <p class="opport__text">Будете легко решать задачи, ранее отнимавшие много времени и сил</p>
                             </li>
                             <li class="col-md-4 col-sm-6 col-xs-6 opport__item">
                                 <div class="opport__block">
-                                    <img src="images/camp_page/opport5.png" alt="">
+                                    <img src="images/camp_page/svg/opport5.svg" alt="">
                                 </div>
                                 <p class="opport__text">Вы сможете обоснованно обсудить свое повышение с боссом</p>
                             </li>
                             <li class="col-md-4 col-sm-6 col-xs-6 opport__item">
                                 <div class="opport__block">
-                                    <img src="images/camp_page/opport6.png" alt="">
+                                    <img src="images/camp_page/svg/opport6.svg" alt="">
                                 </div>
                                 <p class="opport__text">Переход на новый уровень творческой интеллектуальной работы</p>
                             </li>
@@ -324,7 +279,7 @@
                         <h3 class="start__title">Start right now!</h3>
                         <p class="start__p">Приходи на бесплатное занятие и посмотри на обучение своими глазами</p>
                         <div class="start__arrow">
-                            <img src="images/camp_page/start-arr.png" alt="">
+                            <img src="images/camp_page/svg/start-arr.svg" alt="">
                         </div>
                     </div>
                     <form class="row">
@@ -336,7 +291,7 @@
                                 <input placeholder="Телефон" class="start__style start__input" type="text">
                             </div>
                             <div class="start__wrp col-md-4 col-sm-4 col-xs-12">
-                                <button class="start__style start__button">Записаться на бесплатное занятие</button>
+                                <button class="btn start__style start__button">Записаться на бесплатное занятие</button>
                             </div>
                         </div>
                     </form>
@@ -351,7 +306,7 @@
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <h4 class="courses__sub">Практика на реальных проектах</h4>
                                 <p class="courses__p">Большую часть времени Вы будете выполнять практические задачи на настоящем софте в реальных условиях. Наша задача - обучить Вас навыкам, которые Вы сможете применить сразу же по окончании курса.</p>
-                                <a class="courses__btn" href="#">Узнать больше</a>
+                                <a class="btn tbn-sm btn-blue" href="#">Узнать больше</a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <img class="courses__img" src="images/camp_page/courses1.png" alt="">
@@ -364,7 +319,7 @@
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <h4 class="courses__sub">Самые актуальные инструменты для автоматизации тестирования в индустрии</h4>
                                 <p class="courses__p">Вы будете изучать передовые технологии и ПО, применяющиеся в QA вещуими компаниями, такие как Java, WebDriver, Selenium IDE, Frameworks, Linux, SQL, TDD в интенсивном 123 часовом курсе.</p>
-                                <a class="courses__btn" href="#">Узнать больше</a>
+                                <a class="btn tbn-sm btn-blue" href="#">Узнать больше</a>
                             </div>
                         </div>
                         <div class="courses__block">
@@ -373,23 +328,23 @@
                                 <p class="courses__p">Вы будете изучать передовые технологии и ПО, применяющиеся в QA вещуими компаниями, такие как Java, WebDriver, Selenium IDE, Frameworks, Linux, SQL, TDD в интенсивном 123 часовом курсе.</p>
                                 <ul class="courses__list">
                                     <li class="courses__item">
-                                        <img class="courses__icon" src="images/camp_page/courses-items.png" alt="">
+                                        <img class="courses__icon" src="images/camp_page/svg/courses-items.svg" alt="">
                                         Портфолио
                                     </li>
                                     <li class="courses__item">
-                                        <img class="courses__icon" src="images/camp_page/courses-items.png" alt="">
+                                        <img class="courses__icon" src="images/camp_page/svg/courses-items.svg" alt="">
                                         Создание эффективного CV
                                     </li>
                                     <li class="courses__item">
-                                        <img class="courses__icon" src="images/camp_page/courses-items.png" alt="">
+                                        <img class="courses__icon" src="images/camp_page/svg/courses-items.svg" alt="">
                                         Помощь в подготовке к собеседованиям
                                     </li>
                                     <li class="courses__item">
-                                        <img class="courses__icon" src="images/camp_page/courses-items.png" alt="">
+                                        <img class="courses__icon" src="images/camp_page/svg/courses-items.svg" alt="">
                                         Содействие в подаче заявки на вакансии
                                     </li>
                                 </ul>
-                                <a class="courses__btn" href="#">Узнать больше</a>
+                                <a class="btn tbn-sm btn-blue" href="#">Узнать больше</a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <img class="courses__img" src="images/camp_page/courses3.png" alt="">
@@ -398,17 +353,17 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <img src="images/camp_page/courses4.png" alt="">
+                            <img src="images/camp_page/svg/courses4.svg" alt="">
                             <h4 class="courses__sub2">Маленькие группы</h4>
                             <p class="courses_desc">Благодаря маленьким группам, у вас будет много индивидуальной работы с преподавателями и ментором, которые будут внимательно отслеживать Ваш прогресс.</p>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <img src="images/camp_page/courses5.png" alt="">
+                            <img src="images/camp_page/svg/courses5.svg" alt="">
                             <h4 class="courses__sub2">Менторство</h4>
                             <p class="courses_desc">На протяжении всего курса с Вами тесно будут работать наставники - профессионалы с реальным опытом , работающие в известных технологических компаниях, таких как Google, SalesForce и Genentech</p>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <img src="images/camp_page/courses6.png" alt="">
+                            <img src="images/camp_page/svg/courses6.svg" alt="">
                             <h4 class="courses__sub2">Удаленное обучение</h4>
                             <p class="courses_desc">Нет возможности присутствовать в классе? Вы сможете пройти весь курс или отдельные занятия, где бы Вы ни находились. Также мы предлагаем повторное прохождение пропущенных занятий.</p>
                         </div>
@@ -433,7 +388,7 @@
                                             <p class="say__text">Спасибо за грамотный и полностью понятный экскурс в мир тестирования. Если бы так читали лекции в ВУЗ-е, то вряд ли я так много пропускал, и точно закончил бы с более отличными результатами. На сколько полезно это для меня - скажу как найду новую работу, а азарта после курсов - я уверен что хватит. Ну что же, пожелаем Сергею все так же получать удовольствие от общения с аудиторией, ровно с таким же азартом читать лекции и проводить практику, с каким он находил свои первые баги. P.S. - спросите у Сергея Гливинского как он начинал свою карьеру, и вы услышите историю победителя! Учитесь у лучших и ими будете! <br>
                                             <span class="say__name">Ben Affleck. <span class="say__qa"> QA Team Lead</span>
                                             <a class="say__link" href="#">
-                                                <img class="say__in" src="images/camp_page/say-in.png" alt="">
+                                                <i class="fa fa-facebook-square"></i>
                                             </a>
                                             </span>
                                             </p>
@@ -446,7 +401,7 @@
                                             <p class="say__text">Спасибо за грамотный и полностью понятный экскурс в мир тестирования. Если бы так читали лекции в ВУЗ-е, то вряд ли я так много пропускал, и точно закончил бы с более отличными результатами. На сколько полезно это для меня - скажу как найду новую работу, а азарта после курсов - я уверен что хватит. Ну что же, пожелаем Сергею все так же получать удовольствие от общения с аудиторией, ровно с таким же азартом читать лекции и проводить практику, с каким он находил свои первые баги. P.S. - спросите у Сергея Гливинского как он начинал свою карьеру, и вы услышите историю победителя! Учитесь у лучших и ими будете!
                                             <span class="say__name">Ben Affleck. <span class="say__qa"> QA Team Lead</span>
                                             <a class="say__link" href="#">
-                                                <img class="say__in" src="images/camp_page/say-in.png" alt="">
+                                                <i class="fa fa-facebook-square"></i>
                                             </a>
                                             </span>
                                             </p>
@@ -464,7 +419,7 @@
                 <div class="container">
                     <h3 class="video__title">It’s better once to see!</h3>
                     <p class="video__p">Посмотрите как проходят занятия на нашем курсе</p>
-                    <img data-toggle="modal" data-target="#video-modal" class="video__img" src="images/camp_page/play.png" alt="">
+                    <img data-toggle="modal" data-target="#video-modal" class="video__img" src="images/camp_page/svg/play.svg" alt="" onclick="playVideo()">
                 </div>
                 <div class="advant__bg">
                     <div class="advant__image " style="background-image:url('images/camp_page/video.jpg')"></div>
@@ -602,42 +557,42 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="advant__block">
-                                <img src="images/camp_page/advant1.png" alt="">
+                                <img src="images/camp_page/svg/advant1.svg" alt="">
                                 <h4 class="advant__sub">Навыки QA автоматизации</h4>
                                 <p class="advant__p">Ты получишь прикладные знания и навыки, которые сразу сможешь применить в работе на проектах</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="advant__block">
-                                <img src="images/camp_page/advant2.png" alt="">
+                                <img src="images/camp_page/svg/advant2.svg" alt="">
                                 <h4 class="advant__sub">Бесплатный коучинг инструктор</h4>
                                 <p class="advant__p">После обучения, ваш инструктор поможет применить полученные знания, преодолеть стартовые барьеры и даст рекомендации по конкретным приложениям.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="advant__block">
-                                <img src="images/camp_page/advant3.png" alt="">
+                                <img src="images/camp_page/svg/advant3.svg" alt="">
                                 <h4 class="advant__sub">Пожизненный доступ к сети партнеров</h4>
                                 <p class="advant__p">Ты получаешь бесплатный доступ к сети наших партнеров и работодателей, которая поможет тебе в карьерном развитии</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="advant__block">
-                                <img src="images/camp_page/advant4.png" alt="">
+                                <img src="images/camp_page/svg/advant4.svg" alt="">
                                 <h4 class="advant__sub">Портфолио с реальными проектами</h4>
                                 <p class="advant__p">В вашем портфолио будут настоящие проекты - то, что действительно ценится работодателями</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="advant__block">
-                                <img src="images/camp_page/advant5.png" alt="">
+                                <img src="images/camp_page/svg/advant5.svg" alt="">
                                 <h4 class="advant__sub">Сертификат выпускника</h4>
                                 <p class="advant__p">Сертификат нашего курс ценится во многих компаниях Силиконовой долины и является весомым аргументом в резюме</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="advant__block">
-                                <img src="images/camp_page/advant6.png" alt="">
+                                <img src="images/camp_page/svg/advant6.svg" alt="">
                                 <h4 class="advant__sub">Помощь в трудоустройстве</h4>
                                 <p class="advant__p">После курса ты получишь помощь в подаче заявки на вакансию, также консультацию по многих вопросам</p>
                             </div>
@@ -664,7 +619,8 @@
                     <h3 class="summary__title">Your CV will looks like this!</h3>
                     <div class="row summary__wrap">
                         <div class="col-md-4 col-sm-4 col-xs-12 summary__bg">
-                            <img src="images/camp_page/avatar.png" alt="">
+                            <div class="advant__overlay -overlay_theme  -gradient -opacity"></div>
+                            <img src="images/camp_page/svg/avatar.svg" alt="">
                             <div class="summary__block">
                                 <p class="summary__p">Jhon Doe</p>
                                 <span class="summary__pos">QA инженер</span>
@@ -835,7 +791,7 @@
                 <div class="container">
                     <div class="row access__flex">
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <img class="access__img" src="images/camp_page/group.png" alt="">
+                            <img class="access__img" src="images/camp_page/svg/group.svg" alt="">
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <p class="access__p">Видеозаписи всех занятий</p>
@@ -846,7 +802,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="access__block">
-                                <img class="access__icon" src="images/camp_page/access1.png" alt="">
+                                <img class="access__icon" src="images/camp_page/svg/access1.svg" alt="">
                                 <p>
                                 вкусные ужины, <br> напитки и ланчи
                                 </p>
@@ -854,7 +810,7 @@
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="access__block">
-                                <img class="access__icon" src="images/camp_page/access2.png" alt="">
+                                <img class="access__icon" src="images/camp_page/svg/access2.svg" alt="">
                                 <p>
                                 Доступ к онлайн-библиотеке<br>с учебными материалами
                                 </p>
@@ -862,7 +818,7 @@
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="access__block">
-                                <img class="access__icon" src="images/camp_page/access3.png" alt="">
+                                <img class="access__icon" src="images/camp_page/svg/access3.svg" alt="">
                                 <p>
                                 Удобный паркинг <br> возле класса
                                 </p>
@@ -906,10 +862,6 @@
                                     <a class="advert__btn_buy" href="#">BUY TICKET NOW</a>
                                 </div>
                                 <div class="advert__company">
-                                    <img src="./images/camp_page/ad1.png" alt="">
-                                    <img src="images/camp_page/ad2.png" alt="">
-                                    <img src="images/camp_page/ad3.png" alt="">
-                                    <img src="images/camp_page/ad4.png" alt="">
                                 </div>
                                 <div class="advert__bottom">
                                     <img src="images/camp_page/finance.png" alt="">
@@ -930,8 +882,13 @@
                                 <div class="advert__item">
                                     <input class="advert__input" placeholder="Ваш номер телефона" type="text">
                                 </div>
-                                <div class="advert__item">
-                                    <input class="advert__input" type="text" value="Начало 19 сентября 2016">
+                                <div class="advert__item select__item">
+                                    <select class="browser-default">
+                                        <!--<option value="" disabled selected>Choose your option</option>-->
+                                        <option value="1">Начало 20 сентября 2016</option>
+                                        <option value="2">Начало 21 сентября 2016</option>
+                                        <option value="3">Начало 22 сентября 2016</option>
+                                    </select>
                                 </div>
                                 <button class="waves-effect waves-blue advert__button">Send request</button>
                             </div>
@@ -940,7 +897,7 @@
                     </div>
                 </div>
                 <div class="theme__section__overlay">
-                    <div class="-image " style="background-image:url('images/camp_page/summary.png')"></div>
+                    <div class="-image " style="background-image:url('images/camp_page/sum-bg.jpg')"></div>
                 </div>
                 <div class="theme__section__overlay -overlay_black -opacity_50"></div>
             </section>
@@ -950,7 +907,7 @@
                     <h3 class="warranty__title">We give 100% money-back guarantee</h3>
                     <div class="row warranty__flex">
                         <div class="col-md-4">
-                            <img class="warranty__img" src="images/camp_page/back.png" alt="">
+                            <img class="warranty__img" src="images/camp_page/back.svg" alt="">
                         </div>
                         <div class="col-md-6">
                             <p class="warranty__p">SQA Training Solution с гордостью предлагает гарантию 100%. Если после третьего занятия Вы решите, что этот курс Вам не подходит, мы с удовольствием вернем Вам регистрационный сбор в полном объеме.</p>
@@ -968,7 +925,7 @@
                         <div class="accordeon">
                             <h3 class="accordeon-title">
                                 Здесь будет находиться текст вопроса
-                                <img src="images/camp_page/plus.png" alt="">
+                                <img class="transley" src="images/camp_page/plus.svg" alt="">
                             </h3>
                             <div class="accordeon-content">
                                 <p class="accordeon-text">какой-то текст</p>
@@ -977,7 +934,7 @@
                         <div class="accordeon">
                             <h3 class="accordeon-title">
                                 Здесь будет находиться текст вопроса
-                                <img src="images/camp_page/plus.png" alt="">
+                                <img class="transley" src="images/camp_page/plus.svg" alt="">
                             </h3>
                             <div class="accordeon-content">
                                 <p class="accordeon-text">какой-то текст</p>
@@ -986,7 +943,7 @@
                         <div class="accordeon">
                             <h3 class="accordeon-title">
                                 Здесь будет находиться текст вопроса
-                                <img src="images/camp_page/plus.png" alt="">
+                                <img class="transley" src="images/camp_page/plus.svg" alt="">
                             </h3>
                             <div class="accordeon-content">
                                 <p class="accordeon-text">какой-то текст</p>
@@ -995,7 +952,7 @@
                         <div class="accordeon">
                             <h3 class="accordeon-title">
                                 Здесь будет находиться текст вопроса
-                                <img src="images/camp_page/plus.png" alt="">
+                                <img class="transley" src="images/camp_page/plus.svg" alt="">
                             </h3>
                             <div class="accordeon-content">
                                 <p class="accordeon-text">какой-то текст</p>
@@ -1007,7 +964,7 @@
                         <div class="col-md-6 col-sm-6">
                             <p class="faq__text">Отправьте Ваш вопрос в этой форме, и мы ответим в самое ближайшее время</p>
                             <div class="faq__wrapper">
-                                <img src="images/camp_page/phone.png" alt="">
+                                <img src="images/camp_page/svg/phone.svg" alt="">
                                 <p class="faq__desc">или позвоните по телефону<br>
                                     <span>
                                         888 789 1482
@@ -1026,7 +983,7 @@
                                 <textarea placeholder="Вопрос" class="faq__textarea"></textarea>
                             </div>
                             <div class="faq__cont">
-                                <img class="faq__ph" src="images/camp_page/captcha.png" alt="">
+                                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
                                 <button class="waves-effect waves-blue faq__button">Send message</button>
                             </div>
                         </div>
@@ -1043,7 +1000,7 @@
                                 <li class="tab ">
                                     <a href="#test111" class="active">
                                         <button class="social__twitter">
-                                            <img src="images/camp_page/twitter.png" alt="">
+                                            <img src="images/camp_page/svg/twitter.svg" alt="">
                                             twitter
                                         </button>
                                     </a>
@@ -1051,7 +1008,7 @@
                                 <li class="tab">
                                     <a class="" href="#test222">
                                         <button class="social__facebook">
-                                            <img src="images/camp_page/fb.png" alt="">
+                                            <img src="images/camp_page/svg/fb.svg" alt="">
                                             facebook
                                         </button>
                                     </a>
@@ -1059,7 +1016,7 @@
                                 <li class="tab">
                                     <a href="#test333">
                                         <button class="social__google">
-                                            <img src="images/camp_page/google.png" alt="">
+                                            <img src="images/camp_page/svg/google.svg" alt="">
                                             google+
                                         </button>
                                     </a>
@@ -1085,15 +1042,15 @@
                             <h3 class="social__title_right">Subscribe our newsletter</h3>
                             <div class="social__group">
                                 <div class="social__item">
-                                    <img src="images/camp_page/ok.png" alt="">
+                                    <img src="images/camp_page/svg/ok.svg" alt="">
                                     fresh news about QA
                                 </div>
                                 <div class="social__item">
-                                    <img src="images/camp_page/ok.png" alt="">
+                                    <img src="images/camp_page/svg/ok.svg" alt="">
                                     Professional FREEBIES every week
                                 </div>
                                 <div class="social__item">
-                                    <img src="images/camp_page/ok.png" alt="">
+                                    <img src="images/camp_page/svg/ok.svg" alt="">
                                     No spam
                                 </div>
                                 <input class="social__input" placeholder="Ваш номер телефона" type="text">
@@ -1107,11 +1064,11 @@
                         <div class="social__callback-wrap">
                             <div class="social__address">
                                 <p class="social__find">find us</p>
-                                <img class="social__mark" src="images/camp_page/mark.png" alt="">
+                                <img class="social__mark" src="images/camp_page/svg/mark.svg" alt="">
                                 <p>140 San Pedro Rd, Daly City, CA 94014, United States</p>
                             </div>
                             <div class="phone">
-                                <img class="social__icon" src="images/camp_page/pho.png" alt="">
+                                <img class="social__icon" src="images/camp_page/svg/pho.svg" alt="">
                                 888 789 1482
                             </div>
                         </div>
@@ -1237,10 +1194,13 @@
         </div>
 
 
-        <div id="video-modal" class="video-modal modal fade" tabindex="-1" role="dialog">
+        <div id="video-modal" class="video-modal modal fade" tabindex="-1" role="dialog" onclick="stopVideo()">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PTJ8N8O4R38" frameborder="0" allowfullscreen></iframe>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div id="player"></div>
                 </div>
             </div>
         </div>
@@ -1325,6 +1285,8 @@
 		</div>
 		<!-- /.modal -->
 
+
+
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
@@ -1333,5 +1295,47 @@
 		<script type="text/javascript" src="./js/ScrollToPlugin.min.js"></script>
 		<script type="text/javascript" src="./js/data_actions.js"></script>
 		<script type="text/javascript" src="./js/main.js"></script>
+
+        <script>
+            // 2. This code loads the IFrame Player API code asynchronously.
+            var tag = document.createElement('script');
+
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            // 3. This function creates an <iframe> (and YouTube player)
+            //    after the API code downloads.
+            var player;
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    height: '390',
+                    width: '640',
+                    videoId: 'PTJ8N8O4R38',
+                    events: {
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+
+            // 4. The API will call this function when the video player is ready.
+            function onPlayerReady(event) {
+                event.target.playVideo();
+            }
+
+            // 5. The API calls this function when the player's state changes.
+            //    The function indicates that when playing a video (state=1),
+            //    the player should play for six seconds and then stop.
+            var done = false;
+            function onPlayerStateChange(event) {
+                if (event.data == YT.PlayerState.PLAYING && !done) {
+                    setTimeout(stopVideo, 6000);
+                    done = true;
+                }
+            }
+            function stopVideo() {
+                player.stopVideo();
+            }
+        </script>
 	</body>
 </html>

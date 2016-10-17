@@ -1,15 +1,22 @@
 ﻿.summary{
     padding: 70px 0 100px 0;
     &__bg{
-        background: url(../images/camp_page/sum-bg.png);
+        background-image: url(../images/camp_page/sum-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         height: 100%;
         padding: 70px 0;
         @include display(flex);
         @include justify-content(center);
         @include flex-direction(column);
         @include align-items(center);
+        .advant__overlay {
+            z-index: 1;
+        }
+        * {
+            z-index: 2;
+        }
     }
     &__title{
         font-size: 36px;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="176px" viewBox="0 0 176 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 39</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Camp-Page" transform="translate(-632.000000, -868.000000)">
+            <g id="Group-39" transform="translate(632.000000, 868.000000)">
+                <circle id="Oval-2-Copy-2" fill="#FFFFFF" cx="88" cy="88" r="88"></circle>
+                <g id="Group-16" transform="translate(36.000000, 35.000000)">
+                    <g id="Group-15" transform="translate(20.438563, 31.058601)" stroke="#4990E2" stroke-width="4">
+                        <polyline id="Rectangle-16" stroke-linecap="round" stroke-linejoin="round" points="13.4734216 65.2431002 13.4734216 47.0294014 13.4734216 47.0294014 31.6871204 47.0294014 31.6871204 28.8157026 31.6871204 28.8157026 49.9008192 28.8157026 49.9008192 10.6020038 49.9008192 10.6020038 68.114518 10.6020038"></polyline>
+                        <path d="M0.319958788,31.6558516 L31.1018331,0.6828549" id="Path-7"></path>
+                        <polyline id="Rectangle-18" transform="translate(25.460038, 6.524310) rotate(-90.000000) translate(-25.460038, -6.524310) " points="31.9843478 -9.02389274e-13 31.9843478 13.04862 18.9357278 13.04862"></polyline>
+                    </g>
+                    <text id="$" font-family=".SFNSDisplay, .SF NS Display" font-size="32" font-weight="normal" fill="#4990E2">
+                        <tspan x="68.0884688" y="31">$</tspan>
+                    </text>
+                    <text id="$-copy-2" font-family=".SFNSDisplay, .SF NS Display" font-size="32" font-weight="normal" fill="#4990E2">
+                        <tspan x="88.3667297" y="31">$</tspan>
+                    </text>
+                    <text id="$-copy" font-family=".SFNSDisplay, .SF NS Display" font-size="32" font-weight="normal" fill="#4990E2">
+                        <tspan x="0" y="97.2449905">$</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,5 @@
 ﻿.faq{
-    background: #f2f2f2;
+    background-color: #FAFBFB;
     padding-bottom: 70px;
     &__title{
         font-size: 36px;
@@ -58,7 +58,16 @@
         box-shadow: none !important;
         outline: none !important;
         border: 1px solid #9b9b9b !important;
-        padding-left: 25px !important
+        padding-left: 25px !important;
+        @include placeholder {
+            color: #9B9B9B;
+            letter-spacing: 0.3px;
+        }
+        &:focus {
+            @include placeholder {
+                color: rgba(#9B9B9B, 0.6);
+            }
+        }
     }
     &__textarea{
         width: 100% !important;
@@ -71,8 +80,18 @@
         padding: 15px 0 0 25px !important;
         resize: none;
         background-color: $whiteColor;
+        @include placeholder {
+            color: #9B9B9B;
+            letter-spacing: 0.3px;
+        }
+        &:focus {
+            @include placeholder {
+                color: rgba(#9B9B9B, 0.6);
+            }
+        }
     }
     &__button{
+        font-family: 'Open Sans', sans-serif;
         width: 40%;
         height: 62px;
         border-radius: 4px;
@@ -134,4 +153,16 @@
     #map {
         height: 400px;
     }
+}
+.transley{
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+.is-opened {
+    .transley{
+        transform: rotate(45deg);
+    }
+}
+.transley-n{
+    transform: rotate(45deg);
 }

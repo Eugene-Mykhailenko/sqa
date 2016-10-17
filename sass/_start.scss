@@ -41,6 +41,15 @@
         width: 100% !important;
         box-sizing: border-box !important;
         box-shadow: none !important;
+        @include placeholder {
+            color: #9B9B9B;
+            letter-spacing: 0.3px;
+        }
+        &:focus {
+            @include placeholder {
+                color: rgba(#9B9B9B, 0.6);
+            }
+        }
     }
     &__button{
         background: #276cf2;
@@ -51,6 +60,10 @@
         width: 100% !important;
         padding: 0;
         height: 60px;
+        font: 'Open Sans', sans-serif;
+        &:hover, &:focus, &:active{
+            color: #fff;
+        }
     }
     &__wrp{
         display: block;
@@ -93,6 +106,9 @@
         &__wrp{
             width: 95%;
             margin-bottom: 25px;
+        }
+        .start__button {
+            font-size: 12px;
         }
     }
 }

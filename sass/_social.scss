@@ -66,7 +66,16 @@
         box-shadow: none !important;
         outline: none !important;
         border: 1px solid #9b9b9b !important;
-        padding-left: 25px !important
+        padding-left: 25px !important;
+        @include placeholder {
+            color: #9B9B9B;
+            letter-spacing: 0.3px;
+        }
+        &:focus {
+            @include placeholder {
+                color: rgba(#9B9B9B, 0.6);
+            }
+        }
     }
     &__button{
         width: 222px;
@@ -81,6 +90,7 @@
         margin-top: 10px; 
         letter-spacing: 0.94px;
         margin-top: 30px;
+        font-family: 'Open Sans', sans-serif;
     }
     &__callback-wrap{
         @include display(flex);
@@ -110,6 +120,9 @@
     &__icon{
         margin-right: 15px;
     }
+}
+social__wrap button{
+    font-family: 'Open Sans', sans-serif;
 }
 @media screen and (min-width: 320px) and (max-width: 560px){
     .social__wrap{

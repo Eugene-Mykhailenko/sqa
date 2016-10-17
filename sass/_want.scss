@@ -1,0 +1,42 @@
+﻿.want{
+    padding: 75px 15px;
+    &__title{
+        text-align: center;
+        color: #014d8f;
+        font-size: 36px;
+        margin: 0 0 75px 0;
+    }
+    &__p{
+        max-width: 512px;
+        margin: 0;
+    }
+    &__img{
+        margin-right: 50px;
+    }
+    &__img, &__p{
+        display: inline-block;
+    }
+    &__list{
+        list-style-type: none;
+        padding: 0;
+    }
+    &__item{
+        @include display(flex);
+        @include align-items(center);
+        margin-bottom: 46px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    .want{
+        &__bg{
+            display: block;
+            margin: 20px auto;
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    margin-bottom: 10px;
+}

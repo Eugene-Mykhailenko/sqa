@@ -1,0 +1,38 @@
+﻿.audience{
+    background-color: #F7F7F7;
+    &__title {
+        color: #014d8f;
+        font-size: 36px;
+        text-align: center;
+        margin: 70px 0 35px 0;
+    }
+    &__wrap {
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            right: -1px;
+            top: 10px;
+            height: 300px;
+            width: 2px;
+            background-color: #fff;
+        }
+        &:last-child {
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    &__block {
+        min-height: 176px;
+        margin-bottom: 30px;
+        @include display(flex);
+        @include align-items(center);
+        @include justify-content(center);
+    }
+    &__p {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}

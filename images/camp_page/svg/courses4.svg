@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="120" height="120" rx="20"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="120" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Camp-Page" transform="translate(-148.000000, -4768.000000)">
+            <rect id="Rectangle-21" fill="#F8F8F8" x="0" y="3056" width="1440" height="2160"></rect>
+            <g id="Group-29" transform="translate(148.000000, 4768.000000)">
+                <use id="Rectangle-24" stroke="#DEDDDE" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="account-group-2.3.3.1" transform="translate(18.000000, 23.000000)">
+                    <g id="Group">
+                        <g id="Outline_Icons_1_" transform="translate(1.000000, 1.000000)" stroke-width="3" stroke="#4990E2">
+                            <g id="Outline_Icons">
+                                <g id="Group">
+                                    <path d="M12.3333333,21.03 L12.3333333,25.6666667 L3.87,28.0866667 C2.11,28.59 0.666666667,30.5 0.666666667,32.3333333 L0.666666667,34 L19,34" id="Shape"></path>
+                                    <path d="M22.3333333,20.9266667 L22.3333333,25.6666667 L30.7933333,28.0866667 C32.5566667,28.59 34,30.5 34,32.3333333 L34,34 L15.6666667,34" id="Shape"></path>
+                                    <ellipse id="Oval" cx="17.3333333" cy="11.57" rx="10" ry="10.9033333"></ellipse>
+                                    <path d="M27.23,9.66 C25.5633333,11.3266667 20.7966667,11.2466667 19,7.9 C15.6666667,11.2333333 10.25,11.2333333 7.55333333,9.33333333" id="Shape"></path>
+                                    <path d="M55.6666667,21.03 L55.6666667,25.6666667 L47.2033333,28.0866667 C45.4433333,28.59 44,30.5 44,32.3333333 L44,34 L62.3333333,34" id="Shape"></path>
+                                    <path d="M65.6666667,20.98 L65.6666667,25.6666667 L74.1266667,28.0866667 C75.89,28.59 77.3333333,30.5 77.3333333,32.3333333 L77.3333333,34 L59,34" id="Shape"></path>
+                                    <ellipse id="Oval" cx="60.6666667" cy="11.57" rx="10" ry="10.9033333"></ellipse>
+                                    <path d="M70.51,9.65 C68.8433333,11.3166667 64.13,11.2466667 62.3333333,7.9 C59,11.2333333 53.5833333,11.2333333 50.8866667,9.33333333" id="Shape"></path>
+                                    <path d="M34,64.3633333 L34,69 L25.5366667,71.42 C23.7766667,71.9233333 22.3333333,73.8333333 22.3333333,75.6666667 L22.3333333,77.3333333 L40.6666667,77.3333333" id="Shape"></path>
+                                    <path d="M44,64.3633333 L44,69 L52.46,71.42 C54.2233333,71.9233333 55.6666667,73.8333333 55.6666667,75.6666667 L55.6666667,77.3333333 L37.3333333,77.3333333" id="Shape"></path>
+                                    <ellipse id="Oval" cx="39" cy="54.9033333" rx="10" ry="10.9033333"></ellipse>
+                                    <path d="M48.8433333,52.9 C47.1766667,54.5666667 42.4633333,54.58 40.6666667,51.2333333 C37.3333333,54.5666667 31.9166667,54.5666667 29.22,52.6666667" id="Shape"></path>
+                                    <path d="M12.3333333,40.6666667 L20.6666667,49" id="Shape"></path>
+                                    <path d="M65.6666667,40.6666667 L57.3333333,49" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Invisible_Shape">
+                            <rect id="Rectangle-path" x="0" y="0" width="80" height="80"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

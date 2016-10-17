@@ -1,0 +1,25 @@
+﻿.video{
+    position: relative;
+    height: 420px;
+    padding: 60px 0;
+    &__img{
+        display: block;
+        margin: 45px auto 0 auto;
+        cursor: pointer;
+    }
+    &__title{
+        font-size: 36px;
+        color: #fff;
+        letter-spacing: 1.2px;
+        margin-top: 0;
+        text-align: center;
+    }
+    &__p{
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+    }
+}
+.video-z{
+    z-index: 99999;
+}

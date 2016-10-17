@@ -1,0 +1,33 @@
+﻿.place{
+    padding: 70px 0 60px 0;
+    text-align: center;
+    &__btn{
+        background: #276cf2;
+        width: 360px;
+        text-transform: uppercase;
+        border-radius: 6px;
+        display: inline-block;
+        text-align: center;
+        line-height: 20px;
+        padding: 20px 0;
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 45px;
+        font-family: 'Open Sans', sans-serif;
+        &:hover, &:focus, &:active{
+            color: #fff;
+        }
+    }
+    &__p{
+        color: #000;
+        font-size: 22px;
+    }
+    &__color{
+        color: #0d5694;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .place__btn{
+        width: 100%;
+    }
+}

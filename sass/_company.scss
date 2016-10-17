@@ -1,0 +1,32 @@
+﻿.company{
+    border-bottom: 2px solid #deddde;
+    &__list{
+        @include display(flex);
+        @include justify-content(center);
+        @include align-items(center);
+        list-style-type: none;
+        padding: 0;
+        height: 100px;
+        max-height: 100%;
+    }
+    &__center{
+        @include display(flex);
+        @include justify-content(center);
+    }
+}
+@media screen and (max-width: 500px){
+    .company__list{
+        @include display(flex);
+        @include justify-content(center);
+        @include align-items(center);
+        list-style-type: none;
+        padding: 0;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .company__center{
+        @include display(flex);
+        @include justify-content(center);
+        padding: 20px;
+    }
+}

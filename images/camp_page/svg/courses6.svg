@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="120" height="120" rx="20"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="120" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Camp-Page" transform="translate(-1001.000000, -4768.000000)">
+            <rect id="Rectangle-21" fill="#F8F8F8" x="0" y="3056" width="1440" height="2160"></rect>
+            <g id="Group-20" transform="translate(1001.000000, 4768.000000)">
+                <use id="Rectangle-24-Copy-2" stroke="#DEDDDE" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="school-graduation.3.3.1" transform="translate(19.000000, 27.000000)">
+                    <g id="Group">
+                        <g id="Outline_Icons" transform="translate(1.000000, 4.333333)" stroke-width="3" stroke="#4990E2">
+                            <g id="Group">
+                                <g transform="translate(0.000000, -0.000000)" id="Shape">
+                                    <path d="M77.3333333,54 C77.3333333,55.8433333 75.8433333,57.3333333 74,57.3333333 L4,57.3333333 C2.16333333,57.3333333 0.666666667,55.8433333 0.666666667,54 L0.666666667,4 C0.666666667,2.15666667 2.16333333,0.666666667 4,0.666666667 L74,0.666666667 C75.8433333,0.666666667 77.3333333,2.15666667 77.3333333,4 L77.3333333,54 L77.3333333,54 Z"></path>
+                                    <path d="M22.3333333,66 L55.6666667,66"></path>
+                                    <path d="M34,57.3333333 L34,67.3333333"></path>
+                                    <path d="M44,57.3333333 L44,67.3333333"></path>
+                                </g>
+                                <polygon id="Shape" points="40.6666667 32.3333333 64 22.3333333 40.6666667 12.3333333 17.3333333 22.3333333"></polygon>
+                                <polyline id="Shape" points="27.3333333 27.3333333 27.3333333 39 40.6666667 45.6666667 54 39 54 27.3333333"></polyline>
+                                <path d="M17,22.3333333 L17,34" id="Shape"></path>
+                                <polyline id="Shape" points="17.3333333 34 14 44 20.6666667 44 17.3333333 34"></polyline>
+                            </g>
+                        </g>
+                        <g id="invisible_shape">
+                            <rect id="Rectangle-path" x="0" y="0" width="80" height="80"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

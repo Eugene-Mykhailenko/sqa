@@ -121,8 +121,19 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
+    .camp__page__main__section {
+        padding-bottom: 100px;
+    }
     .faq__wrapper{
         margin-bottom: 20px;
+    }
+    .faq__cont {
+        display: block;
+    }
+    .faq__button {
+        width: auto;
+        padding: 0 20px;
+        margin-top: 20px;
     }
 }
 

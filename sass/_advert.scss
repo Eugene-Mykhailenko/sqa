@@ -195,7 +195,7 @@
 }
 @media (min-width: 320px) and (max-width:669px){
     .advert__bottom{
-        flex-direction: column;
+        @include flex-direction(column);
     }
     .advert__mid_left, .advert__mid_right{
         float: left;

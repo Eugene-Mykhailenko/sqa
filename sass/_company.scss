@@ -21,7 +21,7 @@
         @include align-items(center);
         list-style-type: none;
         padding: 0;
-        flex-wrap: wrap;
+        @include flex-wrap(wrap);
         height: auto;
     }
     .company__center{

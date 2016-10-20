@@ -546,9 +546,9 @@
 		}
 	}
 	.main__menu.-navbar_scroll .navbar-nav{
-		align-items: center;
-		display: flex;
-		flex-direction: column;
+		@include align-items(center);
+		@include display(flex);
+        @include flex-direction(column);
 	}
 	.main__menu .navbar-nav > li > a:not(.btn)::after{
 		display: none;
@@ -557,13 +557,13 @@
 		text-align: center;
 	}
 	.social__item{
-		align-items: center;
+		@include align-items(center);
 	}
 	h3{
 		font-size: 26px !important;
 	}
 	.want__item{
-		flex-direction: column;
+        @include flex-direction(column);
 	}
 	.want__img{
 		margin: 0 !important;
@@ -621,7 +621,7 @@
 		font-size: 18px;
 	}
 	.social__callback-wrap{
-		display: flex;
-		flex-direction: column;
+		@include display(flex);
+		@include flex-direction(column);
 	}
 }

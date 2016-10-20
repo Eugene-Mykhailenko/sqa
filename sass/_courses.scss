@@ -84,17 +84,17 @@
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
     .courses__block {
-        display: flex;
-        flex-direction: column;
+        @include display(flex);
+        @include flex-direction(column);
         .courses__block__img {
-            order: 2;
+            @include order(2);
             img {
                 display: block;
                 max-width: 290px;
             }
         }
         .courses__block__text {
-            order: 3;
+            @include order(3);
         }
     }
 }

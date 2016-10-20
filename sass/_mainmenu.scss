@@ -274,8 +274,8 @@ $blue2: #276cf2;
         display: none;
     }
     .main__menu .navbar-nav{
-        display: flex;
-        align-items: center;
+        @include display(flex);
+        @include align-items(center);
     }
     .btn-bg{
         /* background: $blue2; */
